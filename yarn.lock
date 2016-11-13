@@ -42,9 +42,9 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@kadira/storybook-channel/-/storybook-channel-1.1.0.tgz#806d1cdf2498d11cce09871a6fd27bbb41ed3564"
 
-"@kadira/storybook-ui@^3.6.0":
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/@kadira/storybook-ui/-/storybook-ui-3.6.3.tgz#06259b1fb1c76e1b3b1b3f83875ef10486db8c05"
+"@kadira/storybook-ui@^3.6.4":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@kadira/storybook-ui/-/storybook-ui-3.7.0.tgz#4903eda1b9550d1a9ffe43c5ebe2e7ae8cbe7a4c"
   dependencies:
     "@kadira/react-split-pane" "^1.4.0"
     babel-runtime "^6.5.0"
@@ -54,23 +54,24 @@
     json-stringify-safe "^5.0.1"
     keycode "^2.1.1"
     lodash.pick "^4.2.1"
-    mantra-core "^1.6.1"
+    mantra-core "^1.7.0"
     qs "^6.2.0"
     react-fuzzy "^0.3.3"
     react-inspector "^1.1.0"
+    react-komposer "^2.0.0"
     react-modal "^1.2.1"
     redux "^3.5.2"
 
-"@kadira/storybook@^2.29.5":
-  version "2.29.6"
-  resolved "https://registry.yarnpkg.com/@kadira/storybook/-/storybook-2.29.6.tgz#39ce75a75c4b48051778339ca7763757def99bb3"
+"@kadira/storybook@2.29.7":
+  version "2.29.7"
+  resolved "https://registry.yarnpkg.com/@kadira/storybook/-/storybook-2.29.7.tgz#edfafc25f8e71ca0bd4b97bdc03f442ea04b0b61"
   dependencies:
     "@kadira/react-split-pane" "^1.4.0"
     "@kadira/storybook-addon-actions" "^1.0.2"
     "@kadira/storybook-addon-links" "^1.0.0"
     "@kadira/storybook-addons" "^1.5.0"
     "@kadira/storybook-channel-postmsg" "^1.1.0"
-    "@kadira/storybook-ui" "^3.6.0"
+    "@kadira/storybook-ui" "^3.6.4"
     airbnb-js-shims "^1.0.1"
     autoprefixer "^6.3.7"
     babel-core "^6.11.4"
@@ -2056,9 +2057,9 @@ eslint-plugin-react@^6.6.0:
     doctrine "^1.2.2"
     jsx-ast-utils "^1.3.3"
 
-eslint@^3.9.1:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.9.1.tgz#5a8597706fc6048bc6061ac754d4a211d28f4f5b"
+eslint@3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.10.0.tgz#4a90079046b3a89099eaa47787eafeb081e78209"
   dependencies:
     babel-code-frame "^6.16.0"
     chalk "^1.1.3"
@@ -2072,7 +2073,7 @@ eslint@^3.9.1:
     file-entry-cache "^2.0.0"
     glob "^7.0.3"
     globals "^9.2.0"
-    ignore "^3.1.5"
+    ignore "^3.2.0"
     imurmurhash "^0.1.4"
     inquirer "^0.12.0"
     is-my-json-valid "^2.10.0"
@@ -2328,9 +2329,9 @@ flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
-flow-bin@^0.34.0:
-  version "0.34.0"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.34.0.tgz#093ed36981e8fafc39d16f0b0878d0968aa80fad"
+flow-bin@0.35.0:
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.35.0.tgz#63d4eb9582ce352541be98e6a424503217141b07"
 
 flow-copy-source@^1.1.0:
   version "1.1.0"
@@ -2586,7 +2587,7 @@ hoek@2.x.x:
   version "2.16.3"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
 
-hoist-non-react-statics@1.x.x:
+hoist-non-react-statics@^1.2.0, hoist-non-react-statics@1.x.x:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-1.2.0.tgz#aa448cf0986d55cc40773b17174b7dd066cb7cfb"
 
@@ -2654,7 +2655,7 @@ ieee754@^1.1.4:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
 
-ignore@^3.1.5:
+ignore@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.2.0.tgz#8d88f03c3002a0ac52114db25d2c673b0bf1e435"
 
@@ -3494,7 +3495,7 @@ lodash.keys@^3.0.0, lodash.keys@^3.1.2:
     lodash.isarguments "^3.0.0"
     lodash.isarray "^3.0.0"
 
-lodash.pick@^4.2.0, lodash.pick@^4.2.1:
+lodash.pick@^4.2.0, lodash.pick@^4.2.1, lodash.pick@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
 
@@ -3536,7 +3537,7 @@ makeerror@1.0.x:
   dependencies:
     tmpl "1.0.x"
 
-mantra-core@^1.6.1:
+mantra-core@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/mantra-core/-/mantra-core-1.7.0.tgz#a8c83e8cee83ef6a7383131519fe8031ad546386"
   dependencies:
@@ -4337,9 +4338,9 @@ pretty-format@~4.2.1:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-4.2.2.tgz#f80bf8d98a6f4d20997a51d18bf331f2ad789a64"
 
-primitives:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/primitives/-/primitives-0.1.2.tgz#61ae22fc1d44fab4b0787a84054c01594dec7358"
+primitives@0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/primitives/-/primitives-0.1.4.tgz#c4538ba11588e88b958b82ccaa9fc37c061943ea"
   dependencies:
     fbjs "^0.8.5"
     glamor "^2.17.14"
@@ -4481,6 +4482,16 @@ react-komposer@^1.9.0:
     mobx "^2.3.4"
     shallowequal "0.2.x"
 
+react-komposer@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-komposer/-/react-komposer-2.0.0.tgz#b964738014a9b4aee494a83c0b5b833d66072a90"
+  dependencies:
+    babel-runtime "^6.11.6"
+    hoist-non-react-statics "^1.2.0"
+    lodash.pick "^4.4.0"
+    react-stubber "^1.0.0"
+    shallowequal "^0.2.2"
+
 react-modal@^1.2.0, react-modal@^1.2.1:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/react-modal/-/react-modal-1.5.2.tgz#acd60f19ed93ebbc7b09ea51624c7566fc615245"
@@ -4501,6 +4512,12 @@ react-simple-di@^1.2.0:
   dependencies:
     babel-runtime "6.x.x"
     hoist-non-react-statics "1.x.x"
+
+react-stubber@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-stubber/-/react-stubber-1.0.0.tgz#41ee2cac72d4d4fd70a63896da98e13739b84628"
+  dependencies:
+    babel-runtime "^6.5.0"
 
 react-textarea-autosize@^4.0.5:
   version "4.0.5"
@@ -4833,7 +4850,7 @@ sha.js@2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/sha.js/-/sha.js-2.2.6.tgz#17ddeddc5f722fb66501658895461977867315ba"
 
-shallowequal@0.2.x:
+shallowequal@^0.2.2, shallowequal@0.2.x:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-0.2.2.tgz#1e32fd5bcab6ad688a4812cb0cc04efc75c7014e"
   dependencies:
