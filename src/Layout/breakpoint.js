@@ -2,31 +2,28 @@
 
 import createValueGetter from '../utils/createValueGetter';
 
-export const map = {
-  xs: 0,
-  s: 600,
-  m: 960,
-  l: 1280,
-  xl: 1920,
-};
-
 export const scale = [
-  map.xs,
+  0,
   360,
   400,
   480,
-  map.s,
+  600,
   720,
   840,
-  map.m,
+  960,
   1024,
-  map.l,
+  1280,
   1440,
   1600,
-  map.xl,
-];
+  1920,
+].map((x: number) => `@media(min-width: ${x / 16}em)`);
 
-const getBreakpoint = createValueGetter(scale, map, map.xs);
+export const map = {
+  xs: scale[0],
+  s: scale[4],
+  m: scale[7],
+  l: scale[9],
+  xl: scale[12],
+};
 
-export default (x: number | 'xs' | 's' | 'm' | 'l' | 'xl') =>
-  `@media(min-width: ${getBreakpoint(x) / 16}em)`;
+export default createValueGetter(scale, map, map.xs);
