@@ -27,10 +27,10 @@ const OpenColor: {
 type Brightness = 0.125 | 0.25 | 0.5 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
 ;
 export const white = (x?: Brightness): string =>
-  x == null ? OpenColor.white : `rgba(0,0,0,${x / 10})`;
+  x == null ? OpenColor.white : `rgba(255,255,255,${x / 10})`;
 
 export const black = (x?: Brightness): string =>
-  x == null ? OpenColor.black : `rgba(255,255,255,${x / 10})`;
+  x == null ? OpenColor.black : `rgba(0,0,0,${x / 10})`;
 
 const getColor = (c: Color) =>
   valueGetterFromArray(OpenColor[c], OpenColor[c][5]);
