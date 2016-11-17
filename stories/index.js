@@ -12,7 +12,7 @@ const { storiesOf } = Storybook;
 storiesOf('Visual Language', module)
   .add('View and Text', () => <View
     style={{
-      backgroundColor: Visual.washedRed,
+      backgroundColor: Visual.red(2),
       height: Visual.space(8) * 2,
       ...Visual.alignment('center'),
     }}

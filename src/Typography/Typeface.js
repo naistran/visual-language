@@ -1,6 +1,6 @@
 // @flow
 
-export const systemSansSerif = [
+export const systemSans = [
   '-apple-system',
   'BlinkMacSystemFont',
   'Segoe UI',

@@ -17,7 +17,7 @@ const SpacedView = ({ size }: { size: number }) => <View
     style={{
       marginLeft: Visual.space(3),
       borderStyle: 'dotted',
-      borderColor: Visual.blue,
+      borderColor: Visual.blue(),
       borderWidth: Visual.lineWidth(2),
       width: Visual.space(size),
       height: Visual.space(size),
