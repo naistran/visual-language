@@ -39,6 +39,6 @@
     "rimraf": "^2.5.4"
   },
   "dependencies": {
-    "open-color": "^1.4.0"
+    "open-color": "^1.6.2"
   }
 }
